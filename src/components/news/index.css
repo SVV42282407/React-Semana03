@@ -1,7 +1,59 @@
 .news-source img {
     width: 24px;
+    margin-right: 10px;
+    height: 24px;
 }
 
 .news-image img {
     width: 100px;
+    height: 100px;
+}
+
+.news-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.news-content {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.news-title {
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.news-header div {
+
+}
+
+.news-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.news-image {
+    width: 100px;
+    position: relative;
+    top: -10px;
+    float: left;
+}
+
+.news-container {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+    font-size: 0.8em;
+    box-shadow: 5px 5px grey;
+}
+
+.news-source {
+    display: flex;
 }

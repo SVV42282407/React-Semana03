@@ -15,10 +15,10 @@ const News = (props) => {
                     <div className="news-details">
                         <div className="news-source">
                             <img src={source_thumb} alt={source}/>
-                            {source}
+                            <span>{source}&nbsp;</span>
                         </div>
                         <div className="news-date">
-                            {date}
+                            <span> - {date}</span>
                         </div>
                     </div>
                     <div className="news-title">
