@@ -49,9 +49,11 @@
 .news-container {
     margin-left: 10px;
     margin-bottom: 30px;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     font-size: 0.8em;
-    box-shadow: 5px 5px grey;
+    -webkit-box-shadow: 5px 5px 5px 0px #A0A0A0; 
+    box-shadow: 5px 5px 5px 0px #A0A0A0;
+    background-color: white;
 }
 
 .news-source {

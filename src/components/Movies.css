@@ -1,5 +1,19 @@
 .container {
+    /*padding: 40px;
+    max-width: 1024px;
+    margin: 0 auto;*/
+    background: url('../data/wave2.png') #f5f5f5 no-repeat;
+    background-position: 0% -60%;
+}
+
+.header, .main {
     padding: 40px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.main {
+    background:#F5F5F5;
 }
 
 .row {
@@ -9,4 +23,52 @@
 
 .left-panel {
     margin-right: 20px;
+    box-shadow: 5px 5px 5px 0px #a0a0a0;
+    background-color: white;
+    padding: 20px;
+    padding-top: unset;
+    height: -webkit-fill-available;
+    flex-direction: column;
+    display: flex;
 }
+
+.right-panel {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: unset;
+        background-position: 0% 0% !important;
+    }
+    .header, .main {
+        padding: 20px;
+        margin: unset;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .left-panel{
+        margin: unset;
+    }
+    .right-panel{
+        margin: unset;
+    }
+    .banner-container {
+        flex-direction: column !important;
+        padding: 20px;
+    }
+    .banner-poster{
+        display: flex;
+        flex-direction: column;
+        margin: unset !important;
+    }
+    .banner-poster img {
+        width: 100% !important;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+    }
+  }
