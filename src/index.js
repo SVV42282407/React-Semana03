@@ -4,7 +4,8 @@ import './index.css';
 //import App from './App';
 //import reportWebVitals from './reportWebVitals';
 
-import App from './components/App';
+//import App from './components/App'; //Retos Semanales
+import App from './components/MoviesApp'; //Hackaton Semanal
 
 ReactDOM.render(
   <React.StrictMode>
