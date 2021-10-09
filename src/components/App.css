@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+}
+
+.leftPanel {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    background-color: blueviolet;
+    height: 100vh;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+}
+
+.row {
+    display: flex;
+    /*flex-direction: row;
+    flex: 1;*/
+    flex-wrap: wrap;
+}
+
+.arrow {
+    background: yellow;
+    padding: 40px;
+}
+
+.title, .subtitle{
+    padding: 20px;
+}
+
+.root {
+    height: 100vh;
+}
