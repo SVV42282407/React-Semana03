@@ -1,8 +1,9 @@
 import React from 'react';
 import './index.css';
 
-const Banner = () => {
-    <div className="banenr-container">
+const Banner = (props) => {
+    const {} = props;
+    <div className="banner-container">
         <div className="banner-poster">
 
         </div>
@@ -17,7 +18,7 @@ const Banner = () => {
 
             </div>
             <div className="banner-buttons">
-                
+
             </div>
         </div>
     </div>

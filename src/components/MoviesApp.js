@@ -1,9 +1,14 @@
 import './Movies.css';
 import { movies } from '../data/movies';
+import Banner from './movieBanner';
 
 const App = () => {
     return (
-        <div></div>
+        <div className="container">
+            {movies.map(movie => (
+                <Banner />
+            ))}
+        </div>
     )
 }
 
