@@ -1,6 +1,6 @@
 import './App.css';
 //import img1 from '../data/img1.png';
-import Container from './itemsContainer';
+import Container from './itemsContainer'; //Reto 01
 import { items } from '../data/items';
 
 const App = () => {
