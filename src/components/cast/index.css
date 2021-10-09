@@ -1,0 +1,32 @@
+.cast-item {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.cast-image img {
+    width: 100px;
+    height: 50px;
+}
+
+.cast-image {
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.cast-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cast-actor {
+    text-transform: uppercase;
+}
+
+.cast-character {
+    font-size: 0.8em;
+    width: 100%;
+    text-align: left;
+}

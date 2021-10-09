@@ -2,8 +2,8 @@ import React from 'react';
 import './index.css';
 
 const Cast = (props) => {
-    const { actor, character, cast_img } = props;
-    let img = process.env.PUBLIC_URL + {cast_img};
+    const { movie, actor, character, cast_img } = props;
+    let img = process.env.PUBLIC_URL + 'movies/' + movie + '/' + cast_img;
     return (
         <div className="cast-item">
             <div className="cast-image">
@@ -14,7 +14,7 @@ const Cast = (props) => {
                     {actor}
                 </div>
                 <div className="cast-character">
-                    as {character}
+                    is {character}
                 </div>
             </div>
         </div>

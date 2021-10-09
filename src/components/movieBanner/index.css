@@ -1,0 +1,64 @@
+.banner-poster {
+    margin-right: 20px;
+}
+
+.banner-content div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner-poster img {
+    width: 180px;
+}
+
+.banner-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.banner-description {
+    font-size: 0.8em;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.banner-details {
+    display: flex;
+    align-items: center;
+}
+
+.banner-details li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.banner-details li:before {
+    content: '\ffed';
+    margin-right: 0.5em;
+}
+
+.banner-details li.first:before {
+    content: unset !important;
+    margin-right: unset !important;
+}
+
+.banner-ranking {
+    width: 100%;
+    text-align: right;
+}
+
+.banner-buttons button{
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: gold;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    min-width: 150px;
+}

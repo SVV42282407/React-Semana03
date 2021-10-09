@@ -1,0 +1,12 @@
+.container {
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.left-panel {
+    margin-right: 20px;
+}
